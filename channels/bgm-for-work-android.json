@@ -2,8 +2,8 @@
   "packageName": "app.bgmforwork",
   "versionCode": 24,
   "versionName": "0.1.0-alpha.24",
-  "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/bgm-for-work-android.apk",
+  "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.3/bgm-for-work-android.apk",
   "size": 59972557,
   "sha256": "82ccac26dfbb55aad4bea34fe9ad424c924e207798ffce4dc8def7fb18bd4c18",
-  "notes": "정보 메뉴에 제작: kimjerky 표시를 추가했습니다."
+  "notes": "정보 메뉴의 제작: kimjerky 표시를 포함한 기존 버전입니다."
 }
