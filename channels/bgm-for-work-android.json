@@ -1,9 +1,9 @@
 {
   "packageName": "app.bgmforwork",
-  "versionCode": 25,
-  "versionName": "0.1.0-alpha.25",
+  "versionCode": 27,
+  "versionName": "1.0.2",
   "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/bgm-for-work-android.apk",
-  "size": 59972561,
-  "sha256": "cfbf5f196c972ee58c0cf9900235a96388786febb417b1f984a7ba54f2b9801d",
-  "notes": "최신 원본의 사용 안내를 포함했습니다. 기존 작업과 서명을 보존합니다. 제작: kimjerky"
+  "size": 56260723,
+  "sha256": "fb495a8b46b9eb1faa1448c76f4f2dfc6d6739583308929b12ecdfd804c1c804",
+  "notes": "첫 실행 사용법, 백업·복원, 재생목록별 원곡·INST·커버 사용량과 선택 캐시 정리. 공유 파일과 재생 중·다음 곡 및 로컬 원본을 보호합니다. 기존 데이터와 업데이트 서명을 유지합니다. 제작: kimjerky"
 }
