@@ -4,7 +4,7 @@
 
 | 앱 | Windows PC | 안드로이드 |
 |---|---|---|
-| 딸깍오탈자수정 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/proofreader-setup.exe) · 0.16.2 | — |
+| 말풍선교정소 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/MalpungseonGyojeongso-Setup.exe) · 0.17.0 | — |
 | 어디보자 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/eodiboja-setup.exe) · 0.1.2 | — |
 | RPG타이머 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/rpg-timer-setup.exe) · 0.8.1 | — |
 | 폰티 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/ponti-setup.exe) · 0.1.26 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/ponti-android.apk) · 0.28 |
@@ -20,7 +20,7 @@ PC는 Windows x64용입니다. 폰티 Android는 Android 10 이상, BGM Android�
 
 ## 이전 버전을 쓰고 있었다면
 
-업데이트 기능이 없던 이전 배포판은 이번에 한 번 새 설치판으로 교체해야 합니다. PC에서는 설치 전 기존 앱을 종료하세요. 딸깍오탈자수정은 최초 실행 때 기존 프로그램 폴더를 선택하여 기록을 가져올 수 있습니다. 어디보자는 기존 베타 설정을 유지하고, 다른 기존판은 `config.json`을 선택하여 이어받을 수 있습니다. RPG타이머·폰티·BGM은 기존 사용자 데이터 저장 위치를 그대로 사용합니다.
+업데이트 기능이 없던 이전 배포판은 이번에 한 번 새 설치판으로 교체해야 합니다. PC에서는 설치 전 기존 앱을 종료하세요. 말풍선교정소는 최초 실행 때 기존 프로그램 폴더를 선택하여 기록을 가져올 수 있습니다. 어디보자는 기존 베타 설정을 유지하고, 다른 기존판은 `config.json`을 선택하여 이어받을 수 있습니다. RPG타이머·폰티·BGM은 기존 사용자 데이터 저장 위치를 그대로 사용합니다.
 
 어디보자에서 기존 분석 폴더를 이어받았다면 원래 폴더를 유지하세요. 개인 AI 모델·작업 자료는 공개 설치판에 포함하지 않았습니다.
 
