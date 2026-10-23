@@ -4,12 +4,12 @@
 
 | 앱 | Windows PC | 안드로이드 |
 |---|---|---|
-| 딸깍오탈자수정 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.1/proofreader-setup.exe) · 0.16.1 | — |
-| 어디보자 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.1/eodiboja-setup.exe) · 0.1.1 | — |
-| 3D관리 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.1/backline-setup.exe) · 0.1.1 | — |
-| RPG타이머 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.1/rpg-timer-setup.exe) · 0.8.0 | — |
-| 폰티 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.1/ponti-setup.exe) · 0.1.25 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.1/ponti-android.apk) · 0.27 |
-| BGM for Work | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.1/bgm-for-work-setup.exe) · 0.1.25 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.1/bgm-for-work-android.apk) · 0.1.0-alpha.23 |
+| 딸깍오탈자수정 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/proofreader-setup.exe) · 0.16.2 | — |
+| 어디보자 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/eodiboja-setup.exe) · 0.1.2 | — |
+| 3D관리 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/backline-setup.exe) · 0.1.2 | — |
+| RPG타이머 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/rpg-timer-setup.exe) · 0.8.1 | — |
+| 폰티 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/ponti-setup.exe) · 0.1.26 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/ponti-android.apk) · 0.28 |
+| BGM for Work | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/bgm-for-work-setup.exe) · 0.1.26 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/bgm-for-work-android.apk) · 0.1.0-alpha.24 |
 
 PC는 Windows x64용입니다. 폰티 Android는 Android 10 이상, BGM Android는 Android 13 이상 ARM64 기기용입니다.
 
@@ -25,5 +25,7 @@ PC는 Windows x64용입니다. 폰티 Android는 Android 10 이상, BGM Android�
 
 어디보자에서 기존 분석 폴더를 이어받거나, 3D관리에서 기존 AI 엔진과 생성 모델을 연결했다면 원래 폴더를 유지하세요. 개인 AI 모델·작업 자료는 공개 설치판에 포함하지 않았습니다.
 
-전체 파일과 변경 내용은 [배포 페이지](https://github.com/kimjerky/app-releases/releases/tag/apps-2026.10.23.1)에서 확인할 수 있습니다. `.nupkg`와 `releases.*.json`은 앱이 사용하는 파일이므로 직접 실행할 필요가 없습니다.
+전체 파일과 변경 내용은 [배포 페이지](https://github.com/kimjerky/app-releases/releases/tag/apps-2026.10.23.2)에서 확인할 수 있습니다. `.nupkg`와 `releases.*.json`은 앱이 사용하는 파일이므로 직접 실행할 필요가 없습니다.
+
+각 앱의 정보 메뉴에서 제작자 kimjerky를 확인할 수 있습니다.
 
