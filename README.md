@@ -4,11 +4,11 @@
 
 | 앱 | Windows PC | 안드로이드 |
 |---|---|---|
-| 말풍선교정소 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.3/MalpungseonGyojeongso-Setup.exe) · 0.17.0 | — |
-| 어디보자 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.3/eodiboja-setup.exe) · 0.1.3 | — |
-| RPG타이머 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.3/rpg-timer-setup.exe) · 0.8.2 | — |
-| 폰티 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.3/ponti-setup.exe) · 0.1.27 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.3/ponti-android.apk) · 0.29 |
-| BGM for Work | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.3/bgm-for-work-setup.exe) · 0.1.26 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.3/bgm-for-work-android.apk) · 0.1.0-alpha.24 |
+| 말풍선교정소 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/proofreader-setup.exe) · 0.17.1 | — |
+| 어디보자 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/eodiboja-setup.exe) · 0.1.4 | — |
+| RPG타이머 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/rpg-timer-setup.exe) · 0.8.5 | — |
+| 폰티 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-setup.exe) · 0.1.28 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android.apk) · 0.29 |
+| BGM for Work | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/bgm-for-work-setup.exe) · 0.1.27 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/bgm-for-work-android.apk) · 0.1.0-alpha.25 |
 
 PC는 Windows x64용입니다. 폰티 Android는 Android 10 이상, BGM Android는 Android 13 이상 ARM64 기기용입니다.
 
@@ -20,12 +20,14 @@ PC는 Windows x64용입니다. 폰티 Android는 Android 10 이상, BGM Android�
 
 ## 이전 버전을 쓰고 있었다면
 
-업데이트 기능이 없던 이전 배포판은 이번에 한 번 새 설치판으로 교체해야 합니다. PC에서는 설치 전 기존 앱을 종료하세요. 말풍선교정소은 최초 실행 때 기존 프로그램 폴더를 선택하여 기록을 가져올 수 있습니다. 어디보자는 기존 베타 설정을 유지하고, 다른 기존판은 `config.json`을 선택하여 이어받을 수 있습니다. RPG타이머·폰티·BGM은 기존 사용자 데이터 저장 위치를 그대로 사용합니다.
+업데이트 기능이 없던 이전 배포판은 이번에 한 번 새 설치판으로 교체해야 합니다. PC에서는 설치 전 기존 앱을 종료하세요. 말풍선교정소는 최초 실행 때 기존 프로그램 폴더를 선택하여 기록을 가져올 수 있습니다. 어디보자는 기존 베타 설정을 유지하고, 다른 기존판은 `config.json`을 선택하여 이어받을 수 있습니다. RPG타이머·폰티·BGM은 기존 사용자 데이터 저장 위치를 그대로 사용합니다.
 
 어디보자에서 기존 분석 폴더를 이어받았다면 원래 폴더를 유지하세요. 개인 AI 모델·작업 자료는 공개 설치판에 포함하지 않았습니다.
 
-전체 파일과 변경 내용은 [배포 페이지](https://github.com/kimjerky/app-releases/releases/tag/apps-2026.10.23.3)에서 확인할 수 있습니다. `.nupkg`와 `releases.*.json`은 앱이 사용하는 파일이므로 직접 실행할 필요가 없습니다.
+전체 파일과 변경 내용은 [배포 페이지](https://github.com/kimjerky/app-releases/releases/tag/apps-2026.10.23.4)에서 확인할 수 있습니다. `.nupkg`와 `releases.*.json`은 앱이 사용하는 파일이므로 직접 실행할 필요가 없습니다.
 
 각 앱의 정보 메뉴에서 제작자 kimjerky를 확인할 수 있습니다.
 
 말풍선교정소·어디보자·RPG타이머·폰티는 시작할 때 간단한 사용 안내를 보여줍니다. **다시 보지 않기**를 선택하면 다음 실행부터 숨깁니다. 정보 메뉴에서 오프라인 사용설명서를 언제든 다시 볼 수 있습니다. 폰티는 PC와 안드로이드 모두 지원합니다.
+
+이번 안정화 수정판에서는 RPG타이머 자세히 보기의 공정 수 오류, 어디보자 설치 파일 누락, 폰티 창 생성 안정성, 교정소 의도 표현 기억을 수정했습니다. 이전 PC판이 실행 직후 계속 종료되면 앱을 닫고 위 새 설치판을 덮어 설치하세요. 기존 자료는 유지됩니다.
