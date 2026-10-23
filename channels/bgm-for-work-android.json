@@ -1,9 +1,9 @@
 {
   "packageName": "app.bgmforwork",
-  "versionCode": 28,
-  "versionName": "1.0.3",
+  "versionCode": 29,
+  "versionName": "1.0.4",
   "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/bgm-for-work-android.apk",
-  "size": 56260771,
-  "sha256": "70037f51b696855eae6bcc38f5ad03f21a13fda2127ce9c688ee6f2e732f664c",
-  "notes": "설정과 심플 모드 메뉴에 5대역 EQ·프리셋·초기화·저장을 추가했습니다. 휴대폰 원곡/INST에 적용하며 모바일 Cast는 스피커 자체 EQ를 사용합니다. 셔플을 재생목록 이름 옆으로 옮겼습니다. EQ 설정도 백업·복원합니다. 제작: kimjerky"
+  "size": 56301632,
+  "sha256": "bc9b6188a87cb38095f9c1c40ec279ac0232dfd71b62bed289a96c625474c2ac",
+  "notes": "기존 로고를 유지하며 적응형·테마 아이콘과 알림 아이콘을 보완했습니다. EQ와 백업·복원 기능, 기존 데이터 및 앱 서명을 유지합니다. 제작: kimjerky"
 }
