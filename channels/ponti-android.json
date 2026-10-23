@@ -1,9 +1,9 @@
 {
   "packageName": "studio.conti",
-  "versionCode": 30,
-  "versionName": "0.30",
+  "versionCode": 31,
+  "versionName": "0.31",
   "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android.apk",
-  "size": 35778381,
-  "sha256": "b0a745f5afec36ac605ef138f15f70d7557dd77bcf4aeedd814e49fb22ebc5ae",
-  "notes": "앱 전체 백업·복원, 첫 실행 백업 복원, 설정·원고 자동 이력 보존. 기존 서명과 사용 안내·설명서를 유지합니다. 제작: kimjerky"
+  "size": 35442053,
+  "sha256": "aeb5c6b489cabcc50268679f23c35be351468f29ecbbaa463c94cc2a37f48edc",
+  "notes": "기존 폰티 아이콘 유지 및 Android 13 이상 테마 아이콘 지원. 앱 전체 백업·복원과 설정·원고 보존, 기존 서명 및 사용 안내를 유지합니다. 제작: kimjerky"
 }
