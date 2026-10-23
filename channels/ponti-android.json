@@ -1,9 +1,9 @@
 {
   "packageName": "studio.conti",
-  "versionCode": 27,
-  "versionName": "0.27",
-  "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.1/ponti-android.apk",
-  "size": 35407835,
-  "sha256": "4a1d7586206176330915e0a027b858984c55e1201ba72d71bd5ed221e969e704",
-  "notes": "GitHub 업데이트 지원. 기존 작업과 설정을 유지합니다."
+  "versionCode": 28,
+  "versionName": "0.28",
+  "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.2/ponti-android.apk",
+  "size": 35407831,
+  "sha256": "aecab68ab11182c1916a4ebba06460865ad2705ee32024fc274163220e1d334b",
+  "notes": "정보 메뉴에 제작: kimjerky 표시를 추가했습니다."
 }
