@@ -1,9 +1,9 @@
 {
   "packageName": "app.bgmforwork",
-  "versionCode": 29,
-  "versionName": "1.0.4",
+  "versionCode": 30,
+  "versionName": "1.0.5",
   "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/bgm-for-work-android.apk",
-  "size": 56301632,
-  "sha256": "bc9b6188a87cb38095f9c1c40ec279ac0232dfd71b62bed289a96c625474c2ac",
-  "notes": "기존 로고를 유지하며 적응형·테마 아이콘과 알림 아이콘을 보완했습니다. EQ와 백업·복원 기능, 기존 데이터 및 앱 서명을 유지합니다. 제작: kimjerky"
+  "size": 56334432,
+  "sha256": "573850f52ffd7176011c4d449437464eaebab7d8a31373faef0f56e48689fcc5",
+  "notes": "PC에서 만든 INST를 같은 Wi-Fi로 가져와 휴대폰에서 재사용할 수 있습니다. 설정의 PC INST 가져오기를 이용하세요. 기존 데이터와 앱 서명을 유지합니다. 제작: kimjerky"
 }
