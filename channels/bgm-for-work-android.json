@@ -1,9 +1,9 @@
 {
   "packageName": "app.bgmforwork",
-  "versionCode": 33,
-  "versionName": "1.0.8",
+  "versionCode": 34,
+  "versionName": "1.0.9",
   "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/bgm-for-work-android.apk",
-  "size": 56922361,
-  "sha256": "b02d450cc5e251a1d09283aa354ab0968d33fcf054b07da97a442e9c2b91c5e3",
-  "notes": "같은 Wi-Fi QR로 PC와 재생목록을 선택하여 주고받습니다. 곡을 길게 눌러 여러 곡을 선택하고 목록 간 복사·이동·제거가 가능합니다. PC INST 가져오기에 완료/전체 곡 수와 진행 게이지 및 알림 진행률을 추가했습니다. 목록 교환은 곡 정보와 순서만 복사하며 로컬 원본 파일은 별도로 연결해야 합니다. 제작: kimjerky"
+  "size": 56938745,
+  "sha256": "7c7abbeba5a27e989eb30641c6e164cd1dd41c504263a33bbdb4428c5e8c1c47",
+  "notes": "검색 기본은 YouTube Music이며 YouTube도 직접 선택할 수 있습니다. Music 곡 검색이 비면 Music 동영상으로 다시 찾고, 최신 YouTube 검색·목록 카드·다음 페이지를 지원합니다. 최근 검색10개·기록 삭제·검색취소·일시적 오류 재시도와 아티스트 설명을 보완했습니다. 곡·앨범·아티스트·재생목록 실제 검색과 목록 추가·키보드·회전 검증 완료. 제작: kimjerky"
 }
