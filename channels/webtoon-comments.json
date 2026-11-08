@@ -1,0 +1,9 @@
+{
+  "build": 9,
+  "version": "3.2-beta",
+  "tag": "webtoon-comments-v3.2-beta",
+  "pc": "https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.2-beta/WebtoonCommentAlert-PC.exe",
+  "android": "https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.2-beta/WebtoonCommentAlert-Android.apk",
+  "pcSha256": "66ba8d020924a1d61676ca07fc97171a81283d7886ad77a56b646eaff2cdce33",
+  "androidSha256": "d493c4dd1cedd7efca9aecee5d51f418b87bd79d70f1552d6e46a6b2513a3ee8"
+}

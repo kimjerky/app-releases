@@ -1,0 +1,38 @@
+# 웹툰 댓글 알림
+
+만든 사람 · **김저키**
+
+[PC 다운로드](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.2-beta/WebtoonCommentAlert-PC.exe) · [Android APK 다운로드](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.2-beta/WebtoonCommentAlert-Android.apk) · [배포 내용](https://github.com/kimjerky/app-releases/releases/tag/webtoon-comments-v3.2-beta)
+
+압축 파일 없이 기기에 맞는 파일만 받으세요. Windows PC와 Android 8 이상을 지원합니다. 개인이 만든 베타 프로그램이며 네이버 공식 앱이 아닙니다.
+
+## 시작하기
+
+1. 작품 주소의 `titleId=` 뒤 숫자를 입력하고 작품명을 확인하세요.
+2. 자동 알림을 켜면 모든 회차의 공개된 새 댓글을 확인합니다.
+3. 댓글은 회차와 관계없이 시간순으로 봅니다. 읽은 댓글은 ‘확인 완료’로 옮기며 기록은 남습니다.
+4. ‘지난 댓글 가져오기’는 빠진 과거 댓글을 가져옵니다. 기존 확인 상태는 유지하고 과거 댓글 알림은 보내지 않습니다.
+
+구독자 수는 앱을 열 때 갱신합니다. 대댓글은 알림 대상이 아닙니다.
+
+## 휴대폰 연결
+
+휴대폰에 무료 ntfy 앱을 설치하고 한 번 여세요. PC의 ‘휴대폰 연결’에서 QR을 띄우고, 휴대폰 앱의 ‘설정 → PC 연결 → PC QR 스캔’으로 비추세요. PC 카메라는 필요 없습니다. 연결 정보는 다른 사람에게 공유하지 마세요.
+
+PC가 켜져 있으면 빠른 푸시를 사용합니다. PC 신호가 끊기면 휴대폰의 다음 예약 확인부터 직접 확인하며, Android 절전 상태에서는 지연될 수 있습니다.
+
+## 업데이트
+
+3.2부터 실행 시 새 버전을 확인하며 ‘설정 → 업데이트 확인’으로도 확인할 수 있습니다. 새 버전이 있으면 다운로드를 안내합니다.
+
+PC는 새 파일을 받은 뒤 트레이 메뉴의 ‘종료’로 기존 앱을 닫고 새 파일을 실행하세요. X는 종료가 아니라 트레이 숨기기입니다. 기록은 실행 파일과 별도로 저장됩니다.
+
+Android는 기존 앱을 삭제하지 말고 새 APK를 덮어 설치하세요. 설치 확인은 Android 화면에서 직접 승인합니다. 앱 삭제나 데이터 지우기는 댓글 기록도 지웁니다.
+
+자동 파일 교체나 무인 설치 방식은 아닙니다. 기존 3.1 이하는 이번에 한 번 새 파일을 받아야 업데이트 확인 기능이 생깁니다. 실제 휴대폰 카메라와 덮어 설치는 기기 검증 전입니다.
+
+## 다음 배포
+
+앱의 버전과 비교용 build 번호를 함께 올린 뒤 `webtoon-comments/<version>/`에 각각의 실행 파일, APK, 라이선스와 SHA256SUMS를 넣으세요. 같은 Android 서명키를 사용해야 기존 앱을 업데이트할 수 있습니다. 서명키와 사용자 데이터는 공개 저장소에 올리지 않습니다.
+
+`channels/webtoon-comments.json`의 버전, 태그, 다운로드 주소와 두 SHA256을 갱신하여 main에 올리면 GitHub Actions가 해당 앱의 별도 배포를 만듭니다. 각 버전은 새 태그와 새 폴더를 사용하세요. 다른 앱의 배포 채널은 변경하지 않습니다.

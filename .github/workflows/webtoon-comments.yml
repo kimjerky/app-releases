@@ -1,0 +1,38 @@
+name: Publish Webtoon Comments
+on:
+  push:
+    branches: [main]
+    paths: ['channels/webtoon-comments.json']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: publish-webtoon-comments
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const crypto = require('crypto');
+            const m = JSON.parse(fs.readFileSync('channels/webtoon-comments.json','utf8').replace(/^\uFEFF/,''));
+            if (!/^webtoon-comments-v[0-9.]+-beta$/.test(m.tag)) throw Error('Invalid tag');
+            const dir = `webtoon-comments/${m.version}`;
+            const files = ['WebtoonCommentAlert-PC.exe','WebtoonCommentAlert-Android.apk','OPEN-SOURCE-LICENSES.txt','SHA256SUMS.txt'];
+            for (const [name,expected] of [[files[0],m.pcSha256],[files[1],m.androidSha256]]) {
+              if(crypto.createHash('sha256').update(fs.readFileSync(`${dir}/${name}`)).digest('hex') !== expected) throw Error('Hash mismatch');
+            }
+            let release;
+            try { release = (await github.rest.repos.getReleaseByTag({...context.repo,tag:m.tag})).data; }
+            catch(e) { if(e.status!==404) throw e; }
+            if (!release) release = (await github.rest.repos.createRelease({...context.repo,tag_name:m.tag,target_commitish:context.sha,name:`웹툰 댓글 알림 ${m.version}`,prerelease:true,make_latest:'false',body:'만든 사람 · 김저키\n\nPC 실행 파일과 Android APK를 각각 받으세요. 압축 해제가 필요 없습니다.\n\n설정 → 업데이트 확인에서 새 버전을 확인할 수 있습니다. PC는 트레이에서 기존 앱을 종료한 뒤 새 실행 파일을 사용하세요. Android는 기존 앱을 삭제하지 말고 APK를 덮어 설치하세요. 댓글 기록과 연결 설정은 유지됩니다.\n\nPC에 QR을 띄우고 휴대폰에서 스캔하여 연결합니다. ntfy 앱을 설치하고 한 번 열어 주세요.\n\n베타 버전입니다. 실제 휴대폰의 카메라 스캔과 업데이트 설치는 아직 기기 검증 전입니다.'})).data;
+            const assets=(await github.rest.repos.listReleaseAssets({...context.repo,release_id:release.id})).data;
+            for(const name of files){
+              if(assets.some(a=>a.name===name)) continue;
+              const data=fs.readFileSync(`${dir}/${name}`);
+              await github.rest.repos.uploadReleaseAsset({...context.repo,release_id:release.id,name,data,headers:{'content-type': name.endsWith('.apk')?'application/vnd.android.package-archive':name.endsWith('.exe')?'application/octet-stream':'text/plain','content-length':data.length}});
+            }

@@ -8,6 +8,7 @@
 | 어디보자 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/eodiboja-setup.exe) · 0.1.4 | — |
 | RPG타이머 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/rpg-timer-setup.exe) · 0.8.5 | — |
 | 폰티 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-setup.exe) · 0.1.28 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android.apk) · 0.29 |
+| 웹툰 댓글 알림 | [PC 다운로드](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.2-beta/WebtoonCommentAlert-PC.exe) · 3.2 베타 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.2-beta/WebtoonCommentAlert-Android.apk) · 3.2 베타 |
 | BGM for Work | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/bgm-for-work-setup.exe) · 0.1.27 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/bgm-for-work-android.apk) · 0.1.0-alpha.25 |
 
 PC는 Windows x64용입니다. 폰티 Android는 Android 10 이상, BGM Android는 Android 13 이상 ARM64 기기용입니다.
@@ -31,3 +32,5 @@ PC는 Windows x64용입니다. 폰티 Android는 Android 10 이상, BGM Android�
 말풍선교정소·어디보자·RPG타이머·폰티는 시작할 때 간단한 사용 안내를 보여줍니다. **다시 보지 않기**를 선택하면 다음 실행부터 숨깁니다. 정보 메뉴에서 오프라인 사용설명서를 언제든 다시 볼 수 있습니다. 폰티는 PC와 안드로이드 모두 지원합니다.
 
 이번 안정화 수정판에서는 RPG타이머 자세히 보기의 공정 수 오류, 어디보자 설치 파일 누락, 폰티 창 생성 안정성, 교정소 의도 표현 기억을 수정했습니다. 이전 PC판이 실행 직후 계속 종료되면 앱을 닫고 위 새 설치판을 덮어 설치하세요. 기존 자료는 유지됩니다.
+
+웹툰 댓글 알림은 [별도 사용법](webtoon-comments/README.md)을 확인하세요. PC는 기존 앱 종료 후 새 실행 파일로 교체하고, Android는 APK를 덮어 설치합니다. 설정의 ‘업데이트 확인’으로 새 버전을 확인할 수 있습니다.
