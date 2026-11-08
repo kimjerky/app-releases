@@ -2,7 +2,7 @@
 
 만든 사람 · **김저키**
 
-[PC 다운로드](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.2-beta/WebtoonCommentAlert-PC.exe) · [Android APK 다운로드](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.2-beta/WebtoonCommentAlert-Android.apk) · [배포 내용](https://github.com/kimjerky/app-releases/releases/tag/webtoon-comments-v3.2-beta)
+[PC 다운로드](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.3-beta/WebtoonCommentAlert-PC.exe) · [Android APK 다운로드](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.3-beta/WebtoonCommentAlert-Android.apk) · [배포 내용](https://github.com/kimjerky/app-releases/releases/tag/webtoon-comments-v3.3-beta)
 
 압축 파일 없이 기기에 맞는 파일만 받으세요. Windows PC와 Android 8 이상을 지원합니다. 개인이 만든 베타 프로그램이며 네이버 공식 앱이 아닙니다.
 
@@ -36,3 +36,7 @@ Android는 기존 앱을 삭제하지 말고 새 APK를 덮어 설치하세요. 
 앱의 버전과 비교용 build 번호를 함께 올린 뒤 `webtoon-comments/<version>/`에 각각의 실행 파일, APK, 라이선스와 SHA256SUMS를 넣으세요. 같은 Android 서명키를 사용해야 기존 앱을 업데이트할 수 있습니다. 서명키와 사용자 데이터는 공개 저장소에 올리지 않습니다.
 
 `channels/webtoon-comments.json`의 버전, 태그, 다운로드 주소와 두 SHA256을 갱신하여 main에 올리면 GitHub Actions가 해당 앱의 별도 배포를 만듭니다. 각 버전은 새 태그와 새 폴더를 사용하세요. 다른 앱의 배포 채널은 변경하지 않습니다.
+
+## 3.3 변경 내용
+
+댓글의 ‘웹툰 앱에서 열기’와 새 댓글 알림을 누르면 네이버웹툰 앱으로 해당 회차를 엽니다. 앱이 없거나 링크를 처리할 수 없으면 모바일 웹으로 엽니다. 유료 회차는 네이버웹툰 앱의 로그인·구매 권한이 필요합니다. 실제 휴대폰에서의 앱 전환은 검증 전입니다.

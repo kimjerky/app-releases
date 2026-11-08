@@ -1,9 +1,10 @@
 {
-  "build": 9,
-  "version": "3.2-beta",
-  "tag": "webtoon-comments-v3.2-beta",
-  "pc": "https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.2-beta/WebtoonCommentAlert-PC.exe",
-  "android": "https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.2-beta/WebtoonCommentAlert-Android.apk",
-  "pcSha256": "66ba8d020924a1d61676ca07fc97171a81283d7886ad77a56b646eaff2cdce33",
-  "androidSha256": "d493c4dd1cedd7efca9aecee5d51f418b87bd79d70f1552d6e46a6b2513a3ee8"
+  "build": 10,
+  "version": "3.3-beta",
+  "tag": "webtoon-comments-v3.3-beta",
+  "pc": "https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.3-beta/WebtoonCommentAlert-PC.exe",
+  "android": "https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.3-beta/WebtoonCommentAlert-Android.apk",
+  "pcSha256": "94ac83979dd7cd1a15d4097c2669923f646c7767007c90dbcee21cf899cffbfc",
+  "androidSha256": "870da6ffc5a46e33ebcd16daad131285e5041f1e79c77ab16dd70c8544949b27",
+  "notes": "Android: 댓글의 회차 열기와 새 댓글 알림에서 네이버웹툰 앱을 우선 실행합니다. 앱이 없으면 모바일 웹으로 엽니다. 유료 회차는 로그인·구매 권한에 따라 열립니다. 실제 휴대폰 앱 전환은 기기 확인 전입니다. PC는 버전 정보만 갱신했습니다."
 }
