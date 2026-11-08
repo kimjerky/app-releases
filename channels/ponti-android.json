@@ -1,9 +1,9 @@
 {
   "packageName": "studio.conti",
-  "versionCode": 34,
-  "versionName": "0.34",
+  "versionCode": 35,
+  "versionName": "0.35",
   "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android.apk",
-  "size": 35492865,
-  "sha256": "fea1d35d60d3a1c4bbcc0ea0dbad485c86e1fa40ea9c2528ccc8c1ed226dc51e",
-  "notes": "업데이트 확인의 12시간 제한을 수정했습니다. 새 실행 즉시·앱 복귀 5분 간격 확인, ⋮ → 업데이트 확인, 놓친 안내 복원을 지원합니다. 기존 원고·설정·서명·아이콘과 원고 자동 연결을 유지합니다. 구버전의 확인 주기는 원격 변경이 안 되어 이번 한 번은 직접 덮어 설치해야 할 수 있습니다. 제작: kimjerky"
+  "size": 35492861,
+  "sha256": "acc78cf12b4d9fe0e9ffe61cdfbfb73f5d320ba7e18477026d679595f9768c43",
+  "notes": "텍스트로 변환한 뒤 일부 지운 손글씨가 남는 문제를 수정했습니다. 변환한 입력 그룹을 함께 정리하고 다른 그림은 유지하며 실행 취소로 필기를 복원합니다. 업데이트 확인·드라이브 이어하기·기존 원고와 설정·아이콘·서명을 유지합니다. 제작: kimjerky"
 }
