@@ -1,9 +1,9 @@
 {
   "packageName": "studio.conti",
-  "versionCode": 32,
-  "versionName": "0.32",
+  "versionCode": 33,
+  "versionName": "0.33",
   "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android.apk",
-  "size": 35492705,
-  "sha256": "853fe402fb9635f11e6a7464127fcc575cb505f0b882a63014059cba7d0e069e",
-  "notes": "드라이브 이어하기(PC 1대·폰 1대), 시작 확인, 동시 수정·오프라인 재연결 시 버전 보존·선택, 부분 저장 복구와 연결 이력 백업. 최초에는 PC 연결 원고와 기기별 버전 파일 2개를 함께 지정하세요. 실제 클라우드 업로드는 Google Drive가 처리합니다. 기존 원고·설정·아이콘·서명을 유지합니다. 제작: kimjerky"
+  "size": 35492865,
+  "sha256": "306e4ff556e40b3d34c4d388601d1cc94b48e0ade4046fea473bc36f4faf7623",
+  "notes": "연결 원고(.conti) 하나로 기존 연결을 재사용하고 허용된 보관 폴더에서 기기별 파일을 자동 연결합니다. 새 폴더는 최초 한 번 접근 권한이 필요하며 폴더 연결 미지원 제공자는 개별 연결이 필요합니다. 미전송 작업·동시 수정 보존, PC 0.1.31 호환, 기존 서명·아이콘 유지. 제작: kimjerky"
 }
