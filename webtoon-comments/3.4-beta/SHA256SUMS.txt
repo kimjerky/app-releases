@@ -1,0 +1,2 @@
+7f8b56031a98e8022785e5479669a264937bd3532a9904b2a55e4622cd57d933  WebtoonCommentAlert-PC.exe
+069467ecfeee0176bb1849ace102caceee92223ac73047d87582e444da21e913  WebtoonCommentAlert-Android.apk

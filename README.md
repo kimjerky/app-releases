@@ -8,7 +8,7 @@
 | 어디보자 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/eodiboja-setup.exe) · 0.1.4 | — |
 | RPG타이머 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/rpg-timer-setup.exe) · 0.8.5 | — |
 | 폰티 | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-setup.exe) · 0.1.28 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android.apk) · 0.29 |
-| 웹툰 댓글 알림 | [PC 다운로드](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.3-beta/WebtoonCommentAlert-PC.exe) · 3.3 베타 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.3-beta/WebtoonCommentAlert-Android.apk) · 3.3 베타 |
+| 웹툰 댓글 알림 | [PC 다운로드](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.4-beta/WebtoonCommentAlert-PC.exe) · 3.4 베타 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/webtoon-comments-v3.4-beta/WebtoonCommentAlert-Android.apk) · 3.4 베타 |
 | BGM for Work | [설치하기](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/bgm-for-work-setup.exe) · 0.1.27 | [APK 설치](https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/bgm-for-work-android.apk) · 0.1.0-alpha.25 |
 
 PC는 Windows x64용입니다. 폰티 Android는 Android 10 이상, BGM Android는 Android 13 이상 ARM64 기기용입니다.
