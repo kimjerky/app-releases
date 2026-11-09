@@ -1,9 +1,9 @@
 {
   "packageName": "studio.conti",
-  "versionCode": 36,
-  "versionName": "0.36",
+  "versionCode": 37,
+  "versionName": "0.37",
   "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android.apk",
-  "size": 35525933,
-  "sha256": "c938c5293fde6d474f2e9076e86f1ab02631654e8bf53ca2584cca5996f46ea2",
-  "notes": "드라이브 원고 선택 시 큰 파일의 중복 해석을 줄이고 열기 진행·취소와 늦은 응답 차단을 추가했습니다. 내 작업에서 드라이브 원고 이어하기를 바로 선택할 수 있습니다. 기기 작업·연결 이력·아이콘·서명을 유지합니다. 제작: kimjerky"
+  "size": 35542317,
+  "sha256": "2dc6b410fa726e17e52b2d9357aeac8097d47f2492e68adf0fca0dd37a87eabe",
+  "notes": "최신 확인에서 큰 연결 이력 때문에 메모리가 부족하던 문제를 수정했습니다. 과거 버전을 파일에서 나눠 읽고 기존 원고·미전송 버전·충돌 후보와 검증을 유지합니다. 진행 단계·취소를 제공하며 기존 서명과 설정을 유지합니다. 제작: kimjerky"
 }
