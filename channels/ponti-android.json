@@ -1,9 +1,9 @@
 {
   "packageName": "studio.conti",
-  "versionCode": 37,
-  "versionName": "0.37",
+  "versionCode": 38,
+  "versionName": "0.38",
   "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android.apk",
-  "size": 35542317,
-  "sha256": "2dc6b410fa726e17e52b2d9357aeac8097d47f2492e68adf0fca0dd37a87eabe",
-  "notes": "최신 확인에서 큰 연결 이력 때문에 메모리가 부족하던 문제를 수정했습니다. 과거 버전을 파일에서 나눠 읽고 기존 원고·미전송 버전·충돌 후보와 검증을 유지합니다. 진행 단계·취소를 제공하며 기존 서명과 설정을 유지합니다. 제작: kimjerky"
+  "size": 35542377,
+  "sha256": "1f8a35fd6e7cba49cbee14c4828086f2d9240b0eb48e521520c08feccf918045",
+  "notes": "일반 저장·자동저장은 로컬 전용입니다. Drive에서 받기 / Drive에 올리기를 직접 선택할 때만 전송합니다. 앱 복귀·종료·편집 중 자동 확인과 받은 원고 재확인 반복을 제거했습니다. 로컬 원고·미전송 이력·충돌 후보와 기존 설정·서명을 유지합니다. 제작: kimjerky"
 }
