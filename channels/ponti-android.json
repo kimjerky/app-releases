@@ -1,9 +1,9 @@
 {
   "packageName": "studio.conti",
-  "versionCode": 38,
-  "versionName": "0.38",
+  "versionCode": 39,
+  "versionName": "0.39",
   "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android.apk",
-  "size": 35542377,
-  "sha256": "1f8a35fd6e7cba49cbee14c4828086f2d9240b0eb48e521520c08feccf918045",
-  "notes": "일반 저장·자동저장은 로컬 전용입니다. Drive에서 받기 / Drive에 올리기를 직접 선택할 때만 전송합니다. 앱 복귀·종료·편집 중 자동 확인과 받은 원고 재확인 반복을 제거했습니다. 로컬 원고·미전송 이력·충돌 후보와 기존 설정·서명을 유지합니다. 제작: kimjerky"
+  "size": 35557501,
+  "sha256": "a063a6bbf1f706ec7fbd059e8e1881777fddc0661518e857eaca6c91559f2f88",
+  "notes": "Drive 전송 → 자동 이어쓰기 설정에서 한 번 켜면 앱을 떠날 때 최종 원고를 로컬 저장하고 앱을 닫은 뒤에도 예약 전송합니다. 인터넷 끊김 시 재시도하고 양쪽 수정은 모두 보존합니다. 돌아오면 한 번 받아 확인하며 편집 중 반복 확인은 하지 않습니다. Android 강제 종료·절전에서는 전송이 지연될 수 있습니다. 기존 원고·설정·서명 유지. 제작: kimjerky"
 }
