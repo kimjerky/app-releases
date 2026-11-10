@@ -1,9 +1,9 @@
 {
   "packageName": "studio.conti",
-  "versionCode": 39,
-  "versionName": "0.39",
-  "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android.apk",
-  "size": 35557501,
-  "sha256": "a063a6bbf1f706ec7fbd059e8e1881777fddc0661518e857eaca6c91559f2f88",
-  "notes": "Drive 전송 → 자동 이어쓰기 설정에서 한 번 켜면 앱을 떠날 때 최종 원고를 로컬 저장하고 앱을 닫은 뒤에도 예약 전송합니다. 인터넷 끊김 시 재시도하고 양쪽 수정은 모두 보존합니다. 돌아오면 한 번 받아 확인하며 편집 중 반복 확인은 하지 않습니다. Android 강제 종료·절전에서는 전송이 지연될 수 있습니다. 기존 원고·설정·서명 유지. 제작: kimjerky"
+  "versionCode": 40,
+  "versionName": "0.40",
+  "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android-0.40.apk",
+  "size": 35557505,
+  "sha256": "86f556bbab3fdcc07cb2910da070bef3216dc4b2467a2cc7c65f5b9f35a58af7",
+  "notes": "원고 열기·저장·원고 사본 저장과 CLIP/CMC/PNG 내보내기를 구분했습니다. Drive 받기·올리기·자동 이어쓰기는 기기 간 공유에서 관리하고 백업·복원은 설정으로 옮겼습니다. 기존 자동 이어쓰기와 원고·설정·서명·아이콘을 유지합니다. 앱을 삭제하지 말고 업데이트 설치하세요. 제작: kimjerky"
 }
