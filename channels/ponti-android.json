@@ -1,9 +1,9 @@
 {
   "packageName": "studio.conti",
-  "versionCode": 40,
-  "versionName": "0.40",
-  "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android-0.40.apk",
+  "versionCode": 41,
+  "versionName": "0.41",
+  "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android-0.41.apk",
   "size": 35557505,
-  "sha256": "86f556bbab3fdcc07cb2910da070bef3216dc4b2467a2cc7c65f5b9f35a58af7",
-  "notes": "원고 열기·저장·원고 사본 저장과 CLIP/CMC/PNG 내보내기를 구분했습니다. Drive 받기·올리기·자동 이어쓰기는 기기 간 공유에서 관리하고 백업·복원은 설정으로 옮겼습니다. 기존 자동 이어쓰기와 원고·설정·서명·아이콘을 유지합니다. 앱을 삭제하지 말고 업데이트 설치하세요. 제작: kimjerky"
+  "sha256": "23739a393986db837bcb2d19f68a7324ed44a753173ef9b4b5f63a79ec10d338",
+  "notes": "시작 화면에서 연결된 공유 원고의 이름·컷 수·기기 저장 시각을 보고 선택합니다. 선택한 공유 원고만 열고 최신 버전을 한 번 확인합니다. 선택하지 않으면 새 원고나 로컬 원고로 시작합니다. 큰 공유 이력을 목록 표시만으로 메모리에 펼치지 않으며 기존 원고·전송 대기·양쪽 수정 보호·서명·아이콘을 유지합니다. 앱 삭제 없이 덮어 설치하세요. 제작: kimjerky"
 }
