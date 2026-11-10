@@ -1,9 +1,9 @@
 {
   "packageName": "studio.conti",
-  "versionCode": 42,
-  "versionName": "0.42",
-  "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android-0.42.apk",
-  "size": 35573885,
-  "sha256": "8388b84f18d3642c13f740f2ee8a6f6848cbb85a1906a544cabd262aa288d80a",
-  "notes": "공유 원고 열기는 연결한 원고 목록을 먼저 보여줍니다. 처음 연결할 때만 .conti와 .pontisync를 구분하는 안내 후 파일을 선택합니다. 수정 기록 파일은 큰 이력을 읽기 전에 바로 안내하며 현재 작업으로 돌아갈 수 있습니다. 기존 원고·설정·동기화 보호·서명·아이콘 유지. 앱 삭제 없이 덮어 설치하세요. 제작: kimjerky"
+  "versionCode": 44,
+  "versionName": "0.44",
+  "url": "https://github.com/kimjerky/app-releases/releases/download/apps-2026.10.23.4/ponti-android-0.44.apk",
+  "size": 35573889,
+  "sha256": "e62a8ecb6b7630a96b35ec3e16d95e027fd529ca28f2baecda88c381b0937789",
+  "notes": "PC·폰 기록을 합칠 때 128MB 연결 이력 제한으로 최신 확인에 실패하는 경로를 수정했습니다. 기기 이력은 보존하고 전송본의 오래된 본문 중복을 줄이며 최신·충돌 후보와 이력 관계는 유지합니다. 큰 연결 이력의 전체 백업·복원도 나눠 읽습니다. 기존 원고·전송 대기·서명·아이콘 유지. 앱 삭제 없이 덮어 설치한 뒤 공유 원고를 다시 선택하세요. 제작: kimjerky"
 }
